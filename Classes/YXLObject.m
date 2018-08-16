@@ -9,4 +9,12 @@
 
 @implementation YXLObject
 
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        NSLog(@"%@ init", NSStringFromClass([self class]));
+    }
+    return self;
+}
+
 @end

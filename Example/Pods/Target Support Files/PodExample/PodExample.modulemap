@@ -1,0 +1,6 @@
+framework module PodExample {
+  umbrella header "PodExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
